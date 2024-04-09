@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../rohit-tandon-qK6898jepEU-unsplash.jpg);
+    background-repeat: none;
+    background-position: center;
+} */
+
+.card{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./rohit-tandon-qK6898jepEU-unsplash.jpg);
+    background-repeat: none;
+    background-position: center;
+}
+h1{
+    font-size: 18pt;
+    padding-top: 70px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto 70px;
+    width: 80%;
+}
+
+form{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    height: 75vh;
+    padding: 20px;
+    background: linear-gradient(rgba(8, 235, 223, 0.5), rgba(14, 14, 105, 0.5));
+    padding: 30px;
+}
+
+form input{
+    width: 90%;
+    margin: 30px 20px 20px 30px;
+    padding: 10px 5px 10px;
+    background: transparent;
+    outline: none;
+    border: 0.75px solid white;
+    /* border-top: none;
+    border-left: none;
+    border-right: none; */
+    /* border-bottom: none; */
+    color: white;
+    cursor: text;
+    
+}
+
+::placeholder{
+    color: white;
+    font-size: 10pt;
+    padding: 5px;
+}
+
+::placeholder:active{
+    font-display: none;
+    text-decoration: none;
+    font-size: 0pt;
+}
+
+/* form input:active{
+    background-color: aqua;
+} */
+button{
+    margin-top: 30px;
+    padding: 10px 40px 5px;
+    border: none;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: red;
+    opacity: 70%;
+    color: white;
+    font-size: 12pt;
+    cursor: pointer;
+    
+
+}
+
+button:hover{
+    background-color: blue;
+    opacity: 75%;
+}
